@@ -1,0 +1,33 @@
+{
+  "name": "neutrino-preset-typescript",
+  "description": "Neutrino preset for building Typescript web applications",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": {},
+  "license": "MIT",
+  "keywords": [
+    "neutrino",
+    "neutrino-preset",
+    "typescript",
+    "web",
+    "tslint",
+    "typings"
+  ],
+  "author": "Theo Despoudis <thdespou@hotmail.com>",
+  "peerDependencies": {
+    "neutrino": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "deepmerge": "^1.3.2",
+    "neutrino-preset-web": "^4.0.1",
+    "tslint": "^4.4.2",
+    "typescript": "^2.2.1",
+    "typings": "^2.1.0",
+    "webpack": "^2.2.1"
+  },
+  "bugs": "https://github.com/theodesp/neutrino-preset-typescript/issues",
+  "dependencies": {
+    "tslib": "^1.6.0"
+  }
+}
