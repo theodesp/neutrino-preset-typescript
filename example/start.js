@@ -1,6 +1,8 @@
 const Neutrino = require('neutrino');
 const api = new Neutrino(['../']);
 
+console.log(api);
+
 api
-  .start()
+  .build()
   .then(() => console.log('Exiting!'));

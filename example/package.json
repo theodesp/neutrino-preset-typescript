@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Example project using neutrino-preset-typescript",
   "main": "src/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "typescript": "^2.2.1"
+  },
   "devDependencies": {
     "neutrino": "^4.1.0"
   },
   "scripts": {
-    "start": "neutrino start --presets ../", 
+    "start": "neutrino start --presets ../",
     "build": "neutrino build --presets ../"
   },
   "keywords": [],
