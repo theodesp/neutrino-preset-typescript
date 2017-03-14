@@ -1,0 +1,20 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Example project using neutrino-preset-typescript",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "neutrino": "^4.1.0",
+    "neutrino-preset-typescript": "file:../../",
+    "neutrino-preset-web": "^4.2.3",
+    "typescript": "^2.2.1"
+  },
+  "scripts": {
+    "start": "neutrino start --presets neutrino-preset-web neutrino-preset-typescript",
+    "build": "neutrino build --presets neutrino-preset-web neutrino-preset-typescript"
+  },
+  "keywords": [],
+  "author": "Theo Despoudis thdespou@hotmail.com",
+  "license": "MIT"
+}
