@@ -19,10 +19,12 @@ module.exports = neutrino => {
   // Typescript compile rules
   config.module
     .rule('compile')
-    .test(/\.tsx?$/)
-    .loader('ts-loader', TS_LOADER, {
-      jsx: 'react'
-    });
+      .test(/\.tsx?$/)
+      .use('ts')
+        .loader(TS_LOADER)
+        .options({
+          jsx: 'react'
+        });
 
   // Resolve
   config.resolve.extensions.add('.ts');
