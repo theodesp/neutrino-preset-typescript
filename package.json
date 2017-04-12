@@ -1,7 +1,7 @@
 {
   "name": "neutrino-preset-typescript",
   "description": "Neutrino preset for building Typescript web applications",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "src/index.js",
   "repository": "https://github.com/theodesp/neutrino-preset-typescript/",
   "license": "MIT",
