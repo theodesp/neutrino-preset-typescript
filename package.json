@@ -13,7 +13,7 @@
     "tslint",
     "typings"
   ],
-  "author": "Theo Despoudis <thdespou@hotmail.com>",
+  "author": "Theo Despoudis",
   "peerDependencies": {},
   "devDependencies": {},
   "bugs": "https://github.com/theodesp/neutrino-preset-typescript/issues",
